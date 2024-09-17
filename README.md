@@ -1,6 +1,3 @@
-Apologies for the confusion! Here’s the updated `README.md` for your simple authentication app that uses Node.js for the backend:
-
-```markdown
 # Simple Authentication App
 
 This is a simple authentication app that includes login, signup, and form validation functionality. It uses Node.js for the backend and the `Provider` package for state management in the frontend. The app also implements local data persistence to store user credentials securely.
@@ -45,7 +42,7 @@ This is a simple authentication app that includes login, signup, and form valida
 
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/simple-authentication-app.git](https://github.com/godzkrishu/UltronAuth--flutter)
+    git clone https://github.com/godzkrishu/UltronAuth--flutter
     cd simple-authentication-app
     ```
 
@@ -64,7 +61,7 @@ This is a simple authentication app that includes login, signup, and form valida
 
 4. Run the server:
     ```bash
-   nodemon index.js
+    nodemon index.js
     ```
 
 5. Your server will be running at `http://localhost:4000`.
@@ -113,8 +110,6 @@ ultron/
 ├── web/                        # Web-specific Flutter project files
 ├── windows/                    # Windows-specific Flutter project files
 
-```
-
 ## API Endpoints
 
 ### POST /api/signup
@@ -136,7 +131,7 @@ ultron/
   }
   ```
 
-### POST /api/auth/login
+### POST /api/login
 - Logs in an existing user
 - Request Body:
   ```json
